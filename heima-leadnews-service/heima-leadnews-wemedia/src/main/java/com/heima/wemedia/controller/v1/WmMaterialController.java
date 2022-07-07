@@ -24,7 +24,6 @@ public class WmMaterialController {
 
     @PostMapping("/list")
     public ResponseResult findList(@RequestBody WmMaterialDto dto){
-
         return wmMaterialService.findList(dto);
     }
 }
